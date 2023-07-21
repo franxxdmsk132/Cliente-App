@@ -23,27 +23,24 @@
     <string name="add_shop">Añadir al Carrito</string>
     <string name="comprar_p">Comprar</string>
     <string-array name="tipoDoc">
-        <item>DNI</item>
-        <item>RUC</item>
-        <item>CARNET EXT.</item>
-        <item>PASAPORTE</item>
+        <item>Cedula</item>
+        <item>Pasaporte</item>
     </string-array>
     <string-array name="departamentos">
-        <item>Lambayeque</item>
-        <item>Piura</item>
-        <item>Tumbes</item>
-        <item>Lima</item>
+        <item>Ds.Software</item>
+        <item>Big Data</item>
+        <item>En.Deportivo</item>
+        <item>Patrimonio</item>
     </string-array>
     <string-array name="provincias">
-        <item>Chiclayo</item>
-        <item>Lambayeque</item>
-        <item>Ferreñafe</item>
+        <item>Azuay</item>
+    
     </string-array>
     <string-array name="distritos">
-        <item>Ferreñafe</item>
-        <item>Pueblo Nuevo</item>
-        <item>Mesones Muro</item>
-        <item>Inkahuasi</item>
-        <item>Kañaris</item>
+        <item>Cuenca</item>
+        <item>Par. Industrial</item>
+        <item>Monay</item>
+        <item>Ricaurte</item>
+        <item>Miraflores</item>
     </string-array>
 </resources>
