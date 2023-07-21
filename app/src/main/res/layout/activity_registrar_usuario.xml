@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C6CCD6"
+    android:background="@drawable/gradient_background"
     android:orientation="vertical"
     tools:context=".activity.RegistrarUsuarioActivity">
 
@@ -40,7 +40,7 @@
             <LinearLayout
                 android:id="@+id/layoutSection1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="302dp">
 
                 <com.google.android.material.card.MaterialCardView
                     android:layout_width="match_parent"
@@ -52,7 +52,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="280dp"
                         android:orientation="vertical">
                         <!-- TITLE -->
                         <TextView
@@ -67,8 +67,8 @@
                         <!-- IMAGE BY USER -->
                         <de.hdodenhof.circleimageview.CircleImageView
                             android:id="@+id/imageUser"
-                            android:layout_width="200dp"
-                            android:layout_height="200dp"
+                            android:layout_width="194dp"
+                            android:layout_height="185dp"
                             android:layout_gravity="center"
                             android:layout_marginTop="5dp"
                             android:src="@drawable/ic_person"
@@ -82,6 +82,7 @@
                             android:layout_gravity="center"
                             android:layout_marginTop="5dp"
                             android:layout_marginEnd="8dp"
+                            android:background="@drawable/button_rounded"
                             android:drawableEnd="@drawable/ic_add_photo"
                             android:fontFamily="@font/san_francisco"
                             android:text="Subir Imagen"
@@ -152,6 +153,8 @@
 
                                     <com.google.android.material.textfield.TextInputEditText
                                         android:id="@+id/edtNameUser"
+                                        android:background="@drawable/edit_text_rounded"
+                                        android:backgroundTint="#BFDEED"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:fontFamily="@font/san_francisco"
@@ -170,7 +173,9 @@
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="10dp"
+
                                     android:layout_weight="1"
+
                                     android:hint="Apellido Paterno"
                                     app:startIconDrawable="@drawable/ic_person">
 
@@ -178,6 +183,8 @@
                                         android:id="@+id/edtApellidoPaternoU"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
+                                        android:background="@drawable/edit_text_rounded"
+                                        android:backgroundTint="#BFDEED"
                                         android:fontFamily="@font/san_francisco"
                                         android:textSize="15sp" />
                                 </com.google.android.material.textfield.TextInputLayout>
@@ -196,6 +203,8 @@
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:fontFamily="@font/san_francisco"
+                                        android:background="@drawable/edit_text_rounded"
+                                        android:backgroundTint="#BFDEED"
                                         android:textSize="15sp" />
                                 </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
@@ -203,20 +212,26 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+
                                 android:orientation="horizontal">
+
 
                                 <com.google.android.material.textfield.TextInputLayout
                                     android:id="@+id/txtInputTipoDoc"
                                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                                     android:layout_width="0dp"
+                                    android:background="#5CBFDEED"
+
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="10dp"
+
                                     android:layout_weight="1"
                                     android:hint="Tipo Identificación"
                                     app:startIconDrawable="@drawable/ic_tipo_doc">
 
                                     <AutoCompleteTextView
                                         android:id="@+id/dropdownTipoDoc"
+
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:clickable="true"
@@ -240,6 +255,8 @@
                                         android:layout_height="wrap_content"
                                         android:fontFamily="@font/san_francisco"
                                         android:inputType="number"
+                                        android:background="@drawable/edit_text_rounded"
+                                        android:backgroundTint="#BFDEED"
                                         android:textSize="15sp" />
                                 </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
@@ -331,6 +348,8 @@
                                         android:layout_height="wrap_content"
                                         android:fontFamily="@font/san_francisco"
                                         android:inputType="number"
+                                        android:background="@drawable/edit_text_rounded"
+                                        android:backgroundTint="#BFDEED"
                                         android:textSize="15sp" />
                                 </com.google.android.material.textfield.TextInputLayout>
                             </LinearLayout>
@@ -352,6 +371,8 @@
                                         android:id="@+id/edtDireccionU"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
+                                        android:background="@drawable/edit_text_rounded"
+                                        android:backgroundTint="#BFDEED"
                                         android:fontFamily="@font/san_francisco"
                                         android:textSize="15sp" />
                                 </com.google.android.material.textfield.TextInputLayout>
@@ -427,6 +448,8 @@
                                         android:layout_height="wrap_content"
                                         android:fontFamily="@font/san_francisco"
                                         android:inputType="textEmailAddress"
+                                        android:background="@drawable/edit_text_rounded"
+                                        android:backgroundTint="#BFDEED"
                                         android:textSize="15sp" />
                                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -444,6 +467,8 @@
                                         android:layout_height="wrap_content"
                                         android:fontFamily="@font/san_francisco"
                                         android:inputType="textPassword"
+                                        android:background="@drawable/edit_text_rounded"
+                                        android:backgroundTint="#BFDEED"
                                         android:textSize="15sp" />
                                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -451,8 +476,9 @@
                                     android:id="@+id/btnGuardarDatos"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_gravity="end"
+                                    android:layout_gravity="center"
                                     android:layout_marginTop="5dp"
+                                    android:background="@drawable/button_rounded"
                                     android:drawableEnd="@drawable/ic_save"
                                     android:fontFamily="@font/san_francisco"
                                     android:text="Guardar Datos"

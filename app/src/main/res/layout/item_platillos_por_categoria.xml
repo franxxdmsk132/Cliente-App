@@ -65,6 +65,8 @@
                 android:layout_centerVertical="true"
                 android:layout_marginRight="10dp"
                 android:backgroundTint="#FF8500"
+                android:background="@drawable/button_rounded"
+                app:backgroundTint="#FF8500"
                 android:fontFamily="@font/san_francisco"
                 android:text="Ordenar"
                 android:textColor="#fff"
