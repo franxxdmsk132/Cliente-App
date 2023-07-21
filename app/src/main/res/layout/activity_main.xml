@@ -21,7 +21,11 @@
                 android:layout_height="120dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="55dp"
+<<<<<<< HEAD
                 android:src="@drawable/logoapro" />
+=======
+                android:src="@drawable/logo_negocio" />
+>>>>>>> origin/main
         </FrameLayout>
     </LinearLayout>
     <LinearLayout
