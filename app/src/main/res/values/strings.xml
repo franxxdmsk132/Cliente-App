@@ -1,46 +1,76 @@
 <resources>
-    <string name="app_name">E-CommerceApp</string>
+    <string name="app_name">Ista BAR</string>
     <string name="label_usuario">Correo Electrónico</string>
     <string name="label_password">Contraseña</string>
     <string name="label_start_session">Iniciar Sesión</string>
-    <string name="label_nuevoUser"><u>Nuevo Usuario ? Registrarme Ahora</u></string>
-    <string name="label_olvide_password">Olvide mi contraseña ?</string>
-    <string name="label_bienvenida">Hola ! - Identifíquese para iniciar sesión</string>
+    <string name="label_nuevoUser"><u>Registrarse</u></string>
+    <string name="label_olvide_password">Olvide mi contraseña</string>
+    <string name="label_bienvenida">BIENVENIDO!</string>
     <string name="title_activity_inicio">InicioActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Alexander Fuentes Medina</string>
-    <string name="nav_header_subtitle">afuentes@live.com</string>
+    <string name="nav_header_title">Usuario</string>
+    <string name="nav_header_subtitle">usuario@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Cerrar Sesión</string>
-    <string name="descripcion_platillo">Esta rica ensalada norteña viene acompañada con su rica
-        lechuga, tomates, cebollas, choclos fresca, además incluye su buen refrescos para acompañar este exquisito
-        platillo preparado por nuestros grandes chef norteños del Perú.</string>
+    <string name="descripcion_platillo">comida rapida porcion pequeña de papas con vinesa y salsas .</string>
 
     <string name="menu_home">Inicio</string>
     <string name="menu_gallery">Mis Compras</string>
     <string name="menu_slideshow">Configuración</string>
     <string name="add_shop">Añadir al Carrito</string>
-    <string name="comprar_p">Comprar</string>
-    <string-array name="tipoDoc">
+    <string name="comprar_p">/Comprar</string>
+    <string-array name="Identificacion">
         <item>Cedula</item>
         <item>Pasaporte</item>
     </string-array>
-    <string-array name="departamentos">
+    <string-array name="Carera">
         <item>Ds.Software</item>
         <item>Big Data</item>
         <item>En.Deportivo</item>
         <item>Patrimonio</item>
+        <item>Mec.Industrial</item>
+        <item>Ds.Infantil</item>
+        <item>Proc. Madera</item>
+        <item>Electricidad</item>
+        <item>Segur. Penitenciaria.</item>
+        <item>Asec. Finananciera</item>
+        <item>Cont.Incedios y Riesgos</item>
+        <item>Mecatronica</item>
+        <item>Tributacion</item>
+        <item>Seguridad y prevencion</item>
+        <item>Audiovisual</item>
+        <item>Ciberseguridad</item>
+        <item>Mantenimiento</item>
+        <item>Metalmecanica</item>
+        <item>Administracion Infraestructuras</item>
     </string-array>
     <string-array name="provincias">
         <item>Azuay</item>
-    
+        <item>Guayas</item>
+        <item>Cañar</item>
+        <item>El Oro</item>
+        <item>Esmeraldas</item>
+        <item>Loja</item>
     </string-array>
-    <string-array name="distritos">
-        <item>Cuenca</item>
-        <item>Par. Industrial</item>
-        <item>Monay</item>
+    <string-array name="Sector">
+        <item>Cebollar</item>
         <item>Ricaurte</item>
+        <item>Machangara</item>
+        <item>Uncovia</item>
+        <item>San Joaquin</item>
+        <item>El tejar</item>
+        <item>Racar</item>
+        <item>El Valle</item>
+        <item>Jaime Roldos</item>
+        <item>Totoracocha</item>
+        <item>El Arenal</item>
+        <item>Turi</item>
         <item>Miraflores</item>
+        <item>Sinincay</item>
+        <item>Balzay</item>
+        <item>Monay</item>
+
+
     </string-array>
 </resources>

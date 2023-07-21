@@ -24,7 +24,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:background="@color/purple_500"
                 app:navigationIcon="@drawable/ic_volver_atras"
-                app:title="Registrar Usuario"
+                app:title="Registro de Usuario"
                 app:titleTextColor="@color/white" />
         </com.google.android.material.appbar.AppBarLayout>
     </LinearLayout>
@@ -59,7 +59,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/san_francisco"
-                            android:text="Subir imagen para tu perfil"
+                            android:text="Subir Foto de Perfil"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="18sp"
@@ -71,7 +71,7 @@
                             android:layout_height="200dp"
                             android:layout_gravity="center"
                             android:layout_marginTop="5dp"
-                            android:src="@drawable/image_not_found"
+                            android:src="@drawable/ic_person"
                             app:civ_border_color="#FFF"
                             app:civ_border_width="2dp" />
                         <!-- BUTTON -->
@@ -301,7 +301,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginEnd="10dp"
                                     android:layout_weight="1"
-                                    android:hint="Distrito"
+                                    android:hint="Sector"
                                     app:startIconDrawable="@drawable/ic_ubicacion">
 
                                     <AutoCompleteTextView
@@ -311,7 +311,9 @@
                                         android:clickable="true"
                                         android:fontFamily="@font/san_francisco"
                                         android:inputType="none"
-                                        android:textSize="15sp" />
+                                        android:textSize="15sp"
+
+                                         />
                                 </com.google.android.material.textfield.TextInputLayout>
 
                                 <com.google.android.material.textfield.TextInputLayout

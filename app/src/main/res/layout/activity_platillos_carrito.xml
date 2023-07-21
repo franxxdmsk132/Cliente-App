@@ -23,7 +23,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:background="@color/purple_500"
                 app:navigationIcon="@drawable/ic_volver_atras"
-                app:title="Bolsa de Compras"
+                app:title="Compras"
                 app:titleTextColor="@color/white" />
         </com.google.android.material.appbar.AppBarLayout>
     </LinearLayout>
@@ -49,7 +49,7 @@
                     android:layout_marginBottom="10dp"
                     android:fontFamily="@font/san_francisco"
                     android:gravity="center"
-                    android:text="Resumen de tu orden"
+                    android:text="Resumen de tu orden!!"
                     android:textColor="#2e2e2e"
                     android:textSize="20sp"
                     android:textStyle="bold" />

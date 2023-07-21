@@ -22,7 +22,7 @@
         android:textStyle="bold"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
-        android:text="Excelente, Haz Iniciado Sesión"
+        android:text="INICIO SESION CORRECTO!!"
         android:textColor="#fff"/>
 
 </LinearLayout>

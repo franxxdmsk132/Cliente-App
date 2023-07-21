@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
             app:navigationIcon="@drawable/ic_volver_atras"
-            app:title="Ver Factura"
+            app:title="DETALLES DE LA FACTURA"
             app:titleTextColor="@color/white"/>
     </com.google.android.material.appbar.AppBarLayout>
     <com.github.barteksc.pdfviewer.PDFView

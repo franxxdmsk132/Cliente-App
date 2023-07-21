@@ -73,11 +73,11 @@ public class RegistrarUsuarioActivity extends AppCompatActivity {
 
     private void spinners() {
         //LISTA DE TIPOS DE DOCUMENTOS
-        String[] tipoDoc = getResources().getStringArray(R.array.tipoDoc);
+        String[] tipoDoc = getResources().getStringArray(R.array.Identificacion);
         ArrayAdapter arrayTipoDoc = new ArrayAdapter(this, R.layout.dropdown_item, tipoDoc);
         dropdownTipoDoc.setAdapter(arrayTipoDoc);
         //LISTA DE DEPARTAMENTOS
-        String[] departamentos = getResources().getStringArray(R.array.departamentos);
+        String[] departamentos = getResources().getStringArray(R.array.Carera);
         ArrayAdapter arrayDepartamentos = new ArrayAdapter(this, R.layout.dropdown_item, departamentos);
         dropdownDepartamento.setAdapter(arrayDepartamentos);
         //LISTA DE PROVINCIAS
@@ -85,7 +85,7 @@ public class RegistrarUsuarioActivity extends AppCompatActivity {
         ArrayAdapter arrayProvincias = new ArrayAdapter(this, R.layout.dropdown_item, provincias);
         dropdownProvincia.setAdapter(arrayProvincias);
         //LISTA DE DISTRITOS
-        String[] distritos = getResources().getStringArray(R.array.distritos);
+        String[] distritos = getResources().getStringArray(R.array.Sector);
         ArrayAdapter arrayDistritos = new ArrayAdapter(this, R.layout.dropdown_item, distritos);
         dropdownDistrito.setAdapter(arrayDistritos);
 
