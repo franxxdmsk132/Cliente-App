@@ -17,9 +17,12 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ConfigApi {
+    //ip lab night :    192.168.20.14
+    //ip casa mia Wifi:       http://192.168.0.102:8080
+    //ip casa mia LAN:     http://192.168.0.109:8080
     //ip casa mamor  :   http://192.168.0.109:8080
     //ip laboratorio :    http://192.168.20.142
-    public static final String baseUrlE = "http://192.168.20.142:8080";
+    public static final String baseUrlE = "http://192.168.0.104:8080";
     public static final String ipAlexander = "http://192.168.101.8:9090";
     private static Retrofit retrofit;
     private static String token = "";

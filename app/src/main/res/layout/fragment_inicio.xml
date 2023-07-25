@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2e2e2e"
+    android:background="@drawable/gradient_background"
     android:orientation="vertical"
     tools:context=".activity.ui.inicio.InicioFragment">
 
@@ -26,7 +26,7 @@
                 <com.smarteist.autoimageslider.SliderView
                     android:id="@+id/svCarrusel"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="221dp"
                     app:sliderAnimationDuration="600"
                     app:sliderAutoCycleDirection="back_and_forth"
                     app:sliderAutoCycleEnabled="true"
@@ -50,7 +50,7 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/san_francisco"
                 android:text="Categorías"
-                android:textColor="#fff"
+                android:textColor="#000000"
                 android:textSize="24dp" />
 
             <GridView
@@ -67,7 +67,7 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/san_francisco"
                 android:text="Platillos Recomendados"
-                android:textColor="#fff"
+                android:textColor="#000000"
                 android:textSize="24dp" />
 
             <RelativeLayout

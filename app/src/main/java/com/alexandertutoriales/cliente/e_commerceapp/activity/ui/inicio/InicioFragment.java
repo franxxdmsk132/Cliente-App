@@ -99,10 +99,12 @@ public class InicioFragment extends Fragment implements Communication, MostrarBa
     private void loadData() {
 
         List<SliderItem> lista = new ArrayList<>();
-        lista.add(new SliderItem(R.drawable.platillos_tipicos, "Los Mejores Platillos"));
-        lista.add(new SliderItem(R.drawable.postres_ricos, "Los Mejores Postres"));
-        lista.add(new SliderItem(R.drawable.postres_muysabrosos, "Los Mejores Postres"));
-        lista.add(new SliderItem(R.drawable.peru_postres, "Los Mejores Postres"));
+        lista.add(new SliderItem(R.drawable.whatsapp_image_2023_07_24_at_11_47_52_pm, ""));
+        lista.add(new SliderItem(R.drawable.comidarapida, ""));
+        lista.add(new SliderItem(R.drawable.secodepollo, ""));
+        lista.add(new SliderItem(R.drawable.snacks, " "));
+        lista.add(new SliderItem(R.drawable.cafe, " "));
+        lista.add(new SliderItem(R.drawable.bebidas, " "));
         sliderAdapter.updateItem(lista);
         categoriaViewModel.listarCategoriasActivas().observe(getViewLifecycleOwner(), response -> {
             if(response.getRpta() == 1){
