@@ -103,7 +103,7 @@ public class InicioFragment extends Fragment implements Communication, MostrarBa
         lista.add(new SliderItem(R.drawable.comidarapida, ""));
         lista.add(new SliderItem(R.drawable.secodepollo, ""));
         lista.add(new SliderItem(R.drawable.snacks, " "));
-        lista.add(new SliderItem(R.drawable.cafe, " "));
+        lista.add(new SliderItem(R.drawable.imagen_de_whatsapp_2023_07_25_a_las_21_52_47, " "));
         lista.add(new SliderItem(R.drawable.bebidas, " "));
         sliderAdapter.updateItem(lista);
         categoriaViewModel.listarCategoriasActivas().observe(getViewLifecycleOwner(), response -> {
